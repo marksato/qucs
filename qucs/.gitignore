@@ -46,3 +46,11 @@ debian/qucs/
 !tests/*/*.sch
 !examples/*.sch
 !examples/*.dpl
+
+# auto-generated files
+qt_version
+qucs/qucs.real
+stamp-h2
+
+# generated man pages
+*.1

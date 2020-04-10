@@ -100,6 +100,7 @@ public slots:
 
 private:
   SyntaxHighlighter * syntaxHighlight;
+  QucsApp *App;
 
 private: // actions. here?
   void actionCopy(){
