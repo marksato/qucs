@@ -191,8 +191,8 @@ AC_ARG_WITH(macosx-version-max-allowed,
 ,)
 
 
-if ! `$PKG_CONFIG --atleast-version=4.6.0 ${qt_name}Core`; then
-   AC_MSG_ERROR([Qt >= 4.6.0 is required.])
+if ! `$PKG_CONFIG --atleast-version=5.0.0 ${qt_name}Core`; then
+   AC_MSG_ERROR([Qt >= 5.0.0 is required. Consider passing --with-qt-name=Qt5])
 fi
 
 QT_MAJOR_VERSION=
